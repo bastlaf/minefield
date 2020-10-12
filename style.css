@@ -52,6 +52,9 @@ p {
 .hov {
     background-color: rgb(131, 131, 131);
 }
+.chiffre1 {
+    color: rgb(131, 131, 131);
+}
 .chiffre2 {
     color: rgb(131, 131, 131);
 }
@@ -69,6 +72,9 @@ p {
 }
 .hov:hover>.chiffre2 {
     color: green;
+}
+.hov:hover>.chiffre1 {
+    color: blue;
 }
 .hov:hover>.chiffreb {
     color: rgb(0, 0, 0);
