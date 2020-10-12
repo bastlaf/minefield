@@ -1,0 +1,57 @@
+* {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page {
+    background-color: brown;
+    height: 400px;
+    width: 400px;
+    border: grey ridge 20px;
+}
+
+.flexou {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgrey;
+}
+
+.flexou div {
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border: black dashed 1px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+p {
+    font-family: 'Press Start 2P', cursive;
+    color: mediumblue;
+}
+.deux {
+    font-family: 'Press Start 2P', cursive;
+    color: green;
+}
+.trois {
+    font-family: 'Press Start 2P', cursive;
+    color: red;
+}
+.bomb {
+    color: black;
+}
+.hov {
+    background-color: rgb(51, 51, 51);
+}
+.hov:hover {
+    visibility: hidden;
+}
