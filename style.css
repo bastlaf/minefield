@@ -52,9 +52,18 @@ p {
 .hov {
     background-color: rgb(131, 131, 131);
 }
-.test {
+.chiffre2 {
+    color: rgb(131, 131, 131);
+}
+.chiffre3 {
     color: rgb(131, 131, 131);
 }
 .hov:hover {
     background-color: lightgray;
+}
+.hov:hover>.chiffre3 {
+    color: red;
+}
+.hov:hover>.chiffre2 {
+    color: green;
 }
